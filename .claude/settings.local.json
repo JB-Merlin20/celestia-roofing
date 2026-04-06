@@ -8,7 +8,9 @@
       "Bash(echo \"Done: $dir\")",
       "Bash(done)",
       "Bash(sed -i 's|href=\"\"../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\"\"|href=\"\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\"\"|' \"$dir/index.html\")",
-      "Bash(echo \"Fixed: $dir\")"
+      "Bash(echo \"Fixed: $dir\")",
+      "Bash(sed -i 's|/index\\\\.html\"\"|/\"\"|g' index.html)",
+      "Bash(sed -i 's|href=\"\"index\\\\.html\"\"|href=\"\"./\"\"|g' index.html)"
     ]
   }
 }
