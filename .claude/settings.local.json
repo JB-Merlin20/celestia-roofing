@@ -11,7 +11,12 @@
       "Bash(echo \"Fixed: $dir\")",
       "Bash(sed -i 's|/index\\\\.html\"\"|/\"\"|g' index.html)",
       "Bash(sed -i 's|href=\"\"index\\\\.html\"\"|href=\"\"./\"\"|g' index.html)",
-      "Bash(bash generate-sitemap.sh)"
+      "Bash(bash generate-sitemap.sh)",
+      "Bash(bash .gen-pages.sh)",
+      "Bash(ls -d *-celestia-crest-roofing-contractors)",
+      "Bash(for f:*)",
+      "Bash(do grep:*)",
+      "Bash(python .patch-locations.py)"
     ]
   }
 }
